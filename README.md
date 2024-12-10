@@ -1,19 +1,19 @@
-##Flight Data Analysis with MapReduce
+#Flight Data Analysis with MapReduce#
 
 This project performs efficient flight data analysis using the MapReduce programming model. It processes large datasets of flight information to extract meaningful insights, such as the most popular routes, flight delays, and airline performance.
 
-##Features
+#Features#
 Scalable Data Processing: Designed to handle large-scale flight datasets using Hadoop's MapReduce framework.
 Customizable Analysis: Includes mappers and reducers tailored for key metrics like delays, popular routes, and airline performance.
 Comprehensive Results: Summarizes insights with detailed counts, averages, and trends for actionable analytics.
 
-##Getting Started
+##Getting Started##
 Prerequisites
 Hadoop: Installed and configured.
 Java Development Kit (JDK): Required for compiling Java files.
 Flight Dataset: A CSV file with columns such as flight number, airline, origin, destination, delay, etc.
 
-##Files in the Repository
+##Files in the Repository##
 workflow.xml: Defines the Hadoop workflow for automating the MapReduce job.
 
 Specifies the sequence of tasks and dependencies for the job execution.
